@@ -1,6 +1,6 @@
 # shell-script-basics
 
-This repo contains the basics of shell scripting (for linux).
+This repo contains the basics of bash shell scripting.
 
 ## References
 - https://www.baeldung.com/linux/bash-special-variables
