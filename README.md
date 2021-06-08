@@ -10,3 +10,6 @@ This repo contains the basics of bash shell scripting.
 - https://wiki.bash-hackers.org/start
 - https://devhints.io/bash
 - https://opensource.com/article/18/5/you-dont-know-bash-intro-bash-arrays
+
+## Tools
+- https://github.com/koalaman/shellcheck
