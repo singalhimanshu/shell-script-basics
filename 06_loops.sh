@@ -1,8 +1,8 @@
 #!/bin/bash
+# loops: Basics of loops in bash.
 
 # basic structure
-# for item in ${items}
-# do
+# for item in ${items} ; do
 #   task ${item}
 # done
 
@@ -12,15 +12,21 @@ for i in {1..9} ; do
     echo ${i}
 done
 
+echo
+
 
 # loop on all command line args
 for arg in ${@} ; do
     echo ${arg}
 done
 
+echo
+
 for arg ; do
     echo ${arg}
 done
+
+echo
 
 
 # read a file word by word
@@ -28,6 +34,8 @@ echo "Read file word by word:"
 for word in $(cat ./01_script.sh) ; do
     echo ${word}
 done
+
+echo
 
 
 # simple while loop example
@@ -40,15 +48,18 @@ while [[ ${counter} -lt 10 ]] ; do
     # let counter+=1
 done
 
+echo
+
 
 # read-while loop
 # read a file line by line (cat like program)
-echo ""
+echo
 echo "read a file line by line:"
 while read line ; do
     echo ${line}
 done < ./01_script.sh
 
+echo
 
 # infinite while loop
 while true ; do

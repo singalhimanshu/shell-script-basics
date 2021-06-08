@@ -1,4 +1,5 @@
 #!/bin/bash
+# error_handling: Making bash shell-scripts more robust.
 
 dir="tmp"
 file="test"
@@ -6,8 +7,8 @@ file="test"
 # set -x
 
 # Bad script
-# cd ${dir}
-# rm ${file}
+cd ${dir}
+rm ${file}
 
 # set +x
 
@@ -32,4 +33,4 @@ file="test"
 # fi
 
 # Simplest way
-cd ${dir} && rm ${file}
+# cd ${dir} && rm ${file}

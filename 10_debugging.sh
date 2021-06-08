@@ -1,4 +1,5 @@
 #!/bin/bash
+# debugging: Finding bugs in bash shell-script.
 
 number=3
 

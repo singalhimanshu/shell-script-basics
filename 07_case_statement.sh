@@ -1,4 +1,5 @@
 #!/bin/bash
+# case_statements: Basics of case statements in bash.
 
 # Basic structure:
 # case EXPRESSION in
@@ -27,6 +28,6 @@ while : ; do
             break
             ;;
         *)
-            echo "Cannot understand please type either `hello` or `bye`"
+            echo "Cannot understand please type either "hello" or "bye""
     esac
 done

@@ -1,4 +1,5 @@
 #!/bin/bash
+# special_variables: Some special variables in bash.
 
 # Positional arguments
 # {0} - {9}

@@ -1,10 +1,10 @@
 #!/bin/bash
-# variables: basic of variables in bash
+# variables: Basics of variables in bash
 
-# Note: there should be no space in between
 good="Good"
+# Note: There should be no space in between variable name and value.
 
-# Output: good
+# Prints "good"
 echo good
 
 # Prints data of variable `goodmorning` (not recommended)

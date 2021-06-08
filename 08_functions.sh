@@ -1,23 +1,27 @@
 #!/bin/bash
+# functions: Basics of functions in bash.
 
 # Basic structure
-# function_name () {
+# function_name() {
 #     statements
 # }
 
 # simple function example
-hello () {
+hello() {
     echo "Hello"
 }
 
+hello
+
 # function with parameters
-greeter () {
+greeter() {
     greeting="${1}"
     echo "Hello ${greeting}"
-    return greeting
+    # Note: We can only return integers from a function
+    # return greeting
 }
 
-hello
+greeter "Foo"
 greeting_returned=$(greeter "Himanshu")
 echo "Greeting returned: ${greeting_returned}"
 
